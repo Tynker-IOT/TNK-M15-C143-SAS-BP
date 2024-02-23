@@ -24,7 +24,7 @@ outsideRangeImages = ["static/icecreammelt.gif",
                       "static/breadfungus.gif",
                       "static/glassshaking.gif"]
 
-images = ["","",""]
+images = ["","","",""]
 
 sensorData = {}
 
