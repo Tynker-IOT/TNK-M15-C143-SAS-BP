@@ -31,6 +31,7 @@
                         document.getElementById("content-img1").src = data['images'][0]
                         document.getElementById("content-img2").src = data['images'][1]
                         document.getElementById("content-img3").src = data['images'][2]
+                        document.getElementById("content-img4").src = data['images'][3]
                         
                     },
                     error: function (error) {
@@ -88,7 +89,7 @@
                         </div>
                         <div>
                             Luminance: {{thresholds['luminanceMin']}} - {{thresholds['luminanceMax']}}<br>
-                            G-force: {{thresholds['gforceMin']}} - {{thresholds['gforceMin']}}
+                            G-force: {{thresholds['gforceMin']}} - {{thresholds['gforceMax']}}
                         </div>
                     </div>
                   <!-- Button trigger modal -->
